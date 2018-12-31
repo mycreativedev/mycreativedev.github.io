@@ -196,7 +196,7 @@
     .menu-bth span,
     .menu-bth span::before,
     .menu-bth span::after{
-        margin-left: -11px;
+        margin-left: -10px;
     }
     .title-big{
         font-size: 40px;
