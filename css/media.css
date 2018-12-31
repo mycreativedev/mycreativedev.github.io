@@ -1,0 +1,244 @@
+/*================media==============*/
+
+@media only screen and (max-width:2000px){
+
+}
+
+@media only screen and (max-width:1440px){
+
+}
+
+@media only screen and (max-width:1366px){
+    
+}
+
+@media only screen and (max-width:992px){    
+    .box-img{
+        right: 10px;
+        top: 870px;
+        width: 400px;
+        height: 450px;
+    }
+    .about-img img{
+        width: 400px;
+    }
+    .service{
+        padding: 10px  0 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .portfolio-row img{
+        height: 250px;
+    }
+}
+
+/* iPhone X width */
+@media only screen and (max-width:882px){
+    .nav-bar{
+        width: 30%;
+    }
+    .menu-bth{
+        right: -100px;
+    }
+    .menu-bth span,
+    .menu-bth span::before,
+    .menu-bth span::after{
+        margin-left: -10px;
+    }
+    .about-img img{
+        width: 350px;
+    }
+    .box-img{
+        height: 400px;
+    }
+    .portfolio-row img{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .nav-bar{
+        width: 40%;
+    }
+    .menu-bth{
+        right: -80px;
+    }
+    .box-img{
+        right: 10px;
+        top: 870px;
+        width: 300px;
+        height: 400px;
+    }
+    .about-img img{
+        margin-top: 50px;
+        width: 300px;
+    }
+}
+
+/* iPhone 6/7/8 Plus samsung s9 width */
+@media only screen and (max-width:740px){
+
+}
+
+/* iPhone 6/7/8 Plus width */
+@media only screen and (max-width:736px){
+   
+}
+
+/* iPhone 6/7/8  width */
+@media only screen and (max-width:667px){
+    .menu-bth{
+        right: -50px;
+    }
+    .about{
+        padding: 100px 0 500px;
+        display: block;
+    }
+    .box-img{
+        right: 50px;
+        top: 1120px;
+        width: 400px;
+        height: 400px;
+    }
+    .about-img img{
+        margin-top: 50px;
+        width: 400px;
+    }
+    .about-img{
+        text-align: center;
+    }
+    .about-text{
+        text-align: center;
+        width: 100%;
+    }
+    .service{
+        padding: 10px  0 10px;
+    }
+    .ser-block{
+        width: 180px;     
+        text-align: center;
+        margin: 0 10px; 
+    }
+    .portfolio-row img{
+        height: 150px;
+    }
+
+}
+
+/* iPhone 5/SE  width */
+@media only screen and (max-width:568px){
+    .nav-bar{
+        width: 50%;
+    }
+    .about-img{
+        width: 10%;
+    }
+    .box-img{
+        top: 1220px;
+        width: 400px;
+        height: 400px;
+    }
+    .about-img img{
+        margin-top: 50px;
+        width: 400px;
+    }
+    .service-blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .ser-block{
+        width: 300px;     
+    }
+    .portfolio-row{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .portfolio-row img{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .title-big{
+        font-size: 50px;
+    }
+    .portfolio-row img{
+        height: 350px;
+    }
+}
+
+
+/* iPhone 6/7/8 Plus */
+@media only screen and (max-width:414px){
+    .box-img{
+        right: 10px;
+        top: 1220px;
+        width: 330px;
+        height: 380px;
+    }
+    .about-img img{
+        width: 320px;
+    }
+    .portfolio-row img{
+        height: 300px;
+    }
+}
+
+/* iPhone 6/7/8 and X */
+@media only screen and (max-width:375px){
+    .nav-bar{
+        width: 70%;
+    }
+    .menu-bth span,
+    .menu-bth span::before,
+    .menu-bth span::after{
+        margin-left: -11px;
+    }
+    .title-big{
+        font-size: 40px;
+    }
+    .box-img{
+        right: 10px;
+        top: 1250px;
+        width: 330px;
+        height: 370px;
+    }
+    .about-img img{
+        width: 300px;
+    }
+    .portfolio-row img{
+        height: 280px;
+    }
+}
+
+/* samsung galaxy s5 */
+@media only screen and (max-width:360px){
+
+}
+
+@media only screen and (max-width:320px){
+    .menu-bth span,
+    .menu-bth span::before,
+    .menu-bth span::after{
+        margin-left: -10px;
+    }
+    .title-big{
+        font-size: 30px;
+    }
+    .box-img{
+        right: 10px;
+        top: 1300px;
+        width: 270px;
+        height: 300px;
+    }
+    .about-img img{
+        width: 250px;
+    }
+    .portfolio-row img{
+        height: 250px;
+    }
+}
