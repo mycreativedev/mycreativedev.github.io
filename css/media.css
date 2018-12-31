@@ -32,6 +32,10 @@
     .portfolio-row img{
         height: 250px;
     }
+    .portfolio-row .portfolio-item{
+        padding-left: 10px;
+        padding-top: 90px;
+    }
 }
 
 /* iPhone X width */
@@ -55,6 +59,10 @@
     }
     .portfolio-row img{
         height: 200px;
+    }
+    .portfolio-row .portfolio-item{
+        padding-left: 10px;
+        padding-top: 70px;
     }
 }
 
@@ -124,6 +132,11 @@
     .portfolio-row img{
         height: 150px;
     }
+    .portfolio-row .portfolio-item{
+        bottom: 10px;
+        padding-left: 10px;
+        padding-top: 40px;
+    }
 
 }
 
@@ -160,6 +173,11 @@
     .portfolio-row img{
         height: 400px;
     }
+    .portfolio-row .portfolio-item{
+        bottom: 5px;
+        padding-left: 10px;
+        padding-top: 170px;
+    }
 }
 
 @media only screen and (max-width:480px){
@@ -168,6 +186,9 @@
     }
     .portfolio-row img{
         height: 350px;
+    }
+    .portfolio-row .portfolio-item{
+        padding-top: 150px;
     }
 }
 
@@ -185,6 +206,10 @@
     }
     .portfolio-row img{
         height: 300px;
+    }
+    .portfolio-row .portfolio-item{
+        bottom: 7px;
+        padding-top: 110px;
     }
 }
 
