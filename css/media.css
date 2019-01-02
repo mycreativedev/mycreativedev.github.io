@@ -32,10 +32,6 @@
     .portfolio-row img{
         height: 250px;
     }
-    .portfolio-row .portfolio-item{
-        padding-left: 10px;
-        padding-top: 90px;
-    }
 }
 
 /* iPhone X width */
@@ -61,8 +57,7 @@
         height: 200px;
     }
     .portfolio-row .portfolio-item{
-        padding-left: 10px;
-        padding-top: 70px;
+        bottom: 8.5px;
     }
 }
 
@@ -134,8 +129,6 @@
     }
     .portfolio-row .portfolio-item{
         bottom: 10px;
-        padding-left: 10px;
-        padding-top: 40px;
     }
 
 }
@@ -175,8 +168,6 @@
     }
     .portfolio-row .portfolio-item{
         bottom: 5px;
-        padding-left: 10px;
-        padding-top: 170px;
     }
 }
 
@@ -186,9 +177,6 @@
     }
     .portfolio-row img{
         height: 350px;
-    }
-    .portfolio-row .portfolio-item{
-        padding-top: 150px;
     }
 }
 
@@ -209,7 +197,6 @@
     }
     .portfolio-row .portfolio-item{
         bottom: 7px;
-        padding-top: 110px;
     }
 }
 
