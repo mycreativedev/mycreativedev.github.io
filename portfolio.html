@@ -52,24 +52,60 @@
 <body>
     
     <main class="portfolio-gallery">
-        <div id="portfolio-gallery">
-            <div class="item-masonry item-size">
-                <img src="img/work_1.jpg" alt="work">
+        <div class="gallery-nav wow zoomIn">
+            <ul>
+                <li class="gallery-btn" data-filter="all">all</li>
+                <li class="gallery-btn" data-filter="web">web</li>
+                <li class="gallery-btn" data-filter="wordpress">wordpress</li>
+                <li class="gallery-btn" data-filter="work">work</li>
+            </ul>
+        </div>
+        <div class="portfolio-box">
+            <div class="portfolio-row wow fadeInUp">
+                <a href="#" class="filter web">
+                    <img src="img/workplace.jpg" alt="work">
+                    <div class="portfolio-item">
+                        <h3>title</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    </div>
+                </a>
+                <a href="#" class="filter work">
+                    <img src="img/work_2.jpg" alt="work">
+                    <div class="portfolio-item">
+                        <h3>title</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    </div>
+                </a>
+                <a href="#" class="filter web">
+                    <img src="img/workplace_3.jpg" alt="work">
+                    <div class="portfolio-item">
+                        <h3>title</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    </div>  
+                </a>
             </div>
-            <div class="item-masonry item-size">
-                <img src="img/workplace.jpg" alt="work">
-            </div>
-            <div class="item-masonry item-size">
-                <img src="img/work_2.jpg" alt="work">
-            </div>
-            <div class="item-masonry item-size">
-                <img src="img/workplace_2.jpg" alt="work">
-            </div>
-            <div class="item-masonry item-size">
-                <img src="img/work_3.jpg" alt="work">
-            </div>
-            <div class="item-masonry item-size">
-                <img src="img/workplace_3.jpg" alt="work">
+            <div class="portfolio-row wow fadeInUp">
+                <a href="#" class="filter work">
+                    <img src="img/work_1.jpg" alt="work">
+                    <div class="portfolio-item">
+                        <h3>title</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    </div>
+                </a>
+                <a href="#" class="filter web">
+                    <img src="img/workplace_2.jpg" alt="work">
+                    <div class="portfolio-item">
+                        <h3>title</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    </div>
+                </a>
+                <a href="#" class="filter work">
+                    <img src="img/work_3.jpg" alt="work">
+                    <div class="portfolio-item">
+                        <h3>title</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                    </div>  
+                </a>
             </div>
         </div>
     </main>
@@ -94,7 +130,6 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="lib/file.js"></script>
     <script src="lib/wow.min.js"></script>
     <script>

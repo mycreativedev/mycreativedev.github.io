@@ -345,7 +345,7 @@ header{
 
 .portfolio-row{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .portfolio-row .portfolio-item{
@@ -367,6 +367,7 @@ header{
     transition: 0.7s;
     transform: scaleY(1);
 }
+
 .portfolio-row a{
     width: 100%;
     margin: 0 10px;
@@ -436,14 +437,52 @@ footer{
 
 .portfolio-gallery{
     margin: 0 5%;
+    padding-bottom: 100px;
 }
 
-.item-size{
-    width: 25%;
+.gallery-nav{
+    margin: 40px 0 25px;
 }
 
-.item-masonry img{
-    width: 100%;
-    height: auto;
-    margin: 5px;
+.gallery-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-nav ul li{
+    margin: 10px 20px;
+    text-transform: capitalize;
+    font-family: 'Poppins-Medium';
+    border: 1px solid #846c54;
+    padding: 10px 40px;
+}
+
+.gallery-nav ul li:hover{
+    letter-spacing: 5px;
+    transition: .5s;    
+}
+
+.portfolio-gallery .portfolio-row a{
+    max-width: 100%;
+    margin: 0 10px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-gallery .portfolio-item{
+    display: flex;
+    text-align: center;
+    flex-direction: column;   
+}
+
+.portfolio-gallery .portfolio-item h3{
+    letter-spacing: 5px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Poppins-Medium';
+}
+
+.portfolio-gallery .portfolio-item p{
+    font-size: 20px;
+    font: italic;
 }
