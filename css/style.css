@@ -339,11 +339,8 @@ header{
     letter-spacing: 5px;
 }
 
-.portfolio-box{
-    margin-top: 50px;
-}
-
 .portfolio-row{
+    margin-top: 50px;
     display: flex;
     position: relative;
     box-sizing: border-box;
