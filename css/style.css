@@ -299,7 +299,6 @@ header{
     text-align: center;
     margin: 0 20px; 
     display: flex;
-    
     align-items: center;
     flex-direction: column;
 }
