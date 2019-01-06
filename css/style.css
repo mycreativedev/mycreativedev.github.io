@@ -3,6 +3,16 @@
     src: url(../font/Poppins-Medium.ttf); 
 }
 
+@font-face{
+    font-family: HappyMonkey-Regular;
+    src: url(../font/HappyMonkey-Regular.ttf); 
+}
+
+@font-face{
+    font-family: JosefinSans-Regular;
+    src: url(../font/JosefinSans-Regular.ttf); 
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -250,7 +260,7 @@ header{
 
 .about-text{
     width: 40%;
-    
+    font-family: 'HappyMonkey-Regular';
 }
 
 .about-text h3{
@@ -272,6 +282,7 @@ header{
     padding: 200px  0 100px;
     display: flex;
     margin: 0 10%;
+    font-family: 'JosefinSans-Regular';
 }
 
 .service-title h3{
@@ -519,7 +530,7 @@ footer{
 
 .portfolio-gallery .portfolio-item p{
     font-size: 20px;
-    font: italic;
+    font-family: 'JosefinSans-Regular';
 }
 
 .portfolio-gallery .portfolio-row{
