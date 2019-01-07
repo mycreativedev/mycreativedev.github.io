@@ -167,6 +167,9 @@
     .ser-block{
         width: 300px;     
     }
+    .ser-block:hover i{
+        margin-top: -20px;
+    }
     .portfolio-row{
         display: flex;
         justify-content: space-between;
