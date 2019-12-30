@@ -50,6 +50,7 @@ a, a:hover, a:visited{
     z-index: 100;
     outline: 0!important;
     transition: .4s;
+    cursor: pointer;
 }
 
 .button-up:hover{
@@ -80,7 +81,7 @@ a, a:hover, a:visited{
 /*==============header==============*/
 
 header{
-    background: url(../img/bg.jpg) no-repeat;
+    background: url(../img/bg2.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 700px;
@@ -215,12 +216,12 @@ header{
     text-transform: uppercase;
     font-family: 'Poppins-Medium';
     color: #846c54;
+    transition: 0.5s;
 }
 
 .menu-list a:hover{
     color: #fff;
     letter-spacing: 5px;
-    transition: 0.5s;
 }
 
 
@@ -236,6 +237,7 @@ header{
 
 .about-img{
     width: 40%;
+    position: relative;
 }
 
 .about-img img{
@@ -248,8 +250,8 @@ header{
 }
 
 .box-img{
-    right: 100px;
-    top: 870px;
+    left: -30px;
+    top: -30px;
     width: 450px;
     height: 500px;
     position: absolute;
@@ -283,6 +285,7 @@ header{
     display: flex;
     margin: 0 10%;
     font-family: 'JosefinSans-Regular';
+    position: relative;
 }
 
 .service-title h3{
@@ -300,7 +303,12 @@ header{
     margin-bottom: 50px;
 }
 
+.service-title{
+    width: 30%;
+}
+
 .service-blocks{
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -316,7 +324,6 @@ header{
 
 .ser-block:hover i{
     margin-top: -40px;
-    transition: 0.8s;
     color: #fff;
     background-color: #394648;
     width: 70px;
@@ -326,6 +333,7 @@ header{
 }
 
 .ser-block i{
+    transition: 0.8s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -352,6 +360,7 @@ header{
     padding: 100px 0;
     text-align: center;
     margin: 0 10%;
+    position: relative;
 }
 
 .portfolio h3{
@@ -378,18 +387,18 @@ header{
     right: 0;
     bottom: 6.8px;
     position: absolute;
-    font-size: 46px;
     color: #fff;
-    background: rgb(0,0,0,0.3);
+    background: rgb(0,0,0,0.7);
     transform: scaleY(0);
+    transition: 0.7s;
 }
 
 .portfolio-row a:hover .portfolio-item{
-    transition: 0.7s;
     transform: scaleY(1);
 }
 
 .portfolio .portfolio-row a{
+    transition: 0.7s;
     width: 100%;
     margin: 0 10px;
     position: relative;
@@ -397,14 +406,15 @@ header{
 }
 
 .portfolio-row img{
+    transition: 0.7s;
     width: 100%;
     height: 300px;
+    object-position: 50% 50%;
+    object-fit: cover;
 }
 
 .portfolio-row a:hover img{
-    transition: 0.7s;
     transform: scale(1.05) translateY(-6.8px);
-
 }
 
 .button{
@@ -417,10 +427,10 @@ header{
     background: #846c54;
     text-transform: uppercase;
     font-family: 'Poppins-Medium';
+    transition: 0.5s;
 }
 
 .button a:hover{
-    transition: 0.5s;
     background: #fff;
     border: 1px solid #846c54;
     letter-spacing: 5px;
@@ -445,10 +455,10 @@ footer{
 .footer-social a{
     color: #fff;
     margin: 0 20px;
+    transition: 0.5s;
 }
 
 .footer-social a:hover{
-    transition: 0.5s;
     color: #846c54;
 }
 
@@ -499,11 +509,12 @@ footer{
     font-family: 'Poppins-Medium';
     border: 1px solid #846c54;
     padding: 10px 40px;
+    transition: .5s;
+    cursor: pointer;
 }
 
 .gallery-nav ul li:hover{
-    letter-spacing: 5px;
-    transition: .5s;    
+    letter-spacing: 5px;    
 }
 
 .portfolio-gallery .portfolio-row a{
@@ -515,20 +526,21 @@ footer{
     overflow: hidden;
 }
 
-.portfolio-gallery .portfolio-item{
+.portfolio-item{
     display: flex;
     text-align: center;
     flex-direction: column;   
 }
 
-.portfolio-gallery .portfolio-item h3{
+.portfolio-item h3{
+    color: #fff;
     letter-spacing: 5px;
     font-size: 26px;
     text-transform: uppercase;
     font-family: 'Poppins-Medium';
 }
 
-.portfolio-gallery .portfolio-item p{
+.portfolio-item p{
     font-size: 20px;
     font-family: 'JosefinSans-Regular';
 }
