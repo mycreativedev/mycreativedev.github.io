@@ -35,6 +35,29 @@ a, a:hover, a:visited{
     text-decoration: none;    
 }
 
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.preloader .block-pre{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.preloader .block-pre img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 /*---------button-up---------*/
 
 
@@ -262,7 +285,8 @@ header{
 
 .about-text{
     width: 40%;
-    font-family: 'HappyMonkey-Regular';
+    /* font-family: 'HappyMonkey-Regular'; */
+    font-family: 'JosefinSans-Regular';
 }
 
 .about-text h3{
@@ -371,6 +395,12 @@ header{
     letter-spacing: 5px;
 }
 
+.portfolio p{
+    font-family: 'JosefinSans-Regular';
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 .portfolio-row{
     margin-top: 50px;
     display: flex;
@@ -436,6 +466,56 @@ header{
     letter-spacing: 5px;
     color: #846c54;
 }
+
+.btn{
+    margin-top: 80px;
+}
+.btn a{
+    color: #846c54;
+    padding: 20px 80px;
+    text-transform: uppercase;
+    font-family: 'Poppins-Medium';
+    transition: 0.5s;
+    position: relative;
+}
+.btn a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #846c54;
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+    border-bottom-left-radius: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.btn a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #846c54;
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+    border-top-right-radius: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+.btn a:hover{
+    color: #fff;
+}
+.btn a:hover::after,
+.btn a:hover::before{
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    opacity: 1;
+}
+
 
 
 /*===============footer==============*/

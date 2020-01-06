@@ -31,7 +31,7 @@
 
     <!-- Icon -->
 
-    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/pre1.png" type="image/x-icon">
 
     <!-- Style -->
 
@@ -46,10 +46,14 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
+    <![endif]-->    
 </head>
 <body>
+    <div class="preloader">
+        <div class="block-pre">
+            <img src="img/pre1.png">
+        </div>
+    </div>
 
     <header id="home">
         <div class="header-bg">
@@ -77,8 +81,9 @@
         <section class="about" id="about">
             <div class="about-text wow fadeInLeft">
                 <h3>I'm Yaroslav Kostyshyn</h3>
-                <p>Hi, I am 22 years old and I am a young web developer from Ukraine. At the moment, I am a student who has already developed several projects. I'm a freelance novice, but I have a passion for developing web sites.</p>
-                <p>Mostly my web sites are coded using: HTML5, CSS3 and JavaScript. But I also use such frameworks as: Bootstrap 3 and jQuery. And I'm also a developer at the CMS WordPress.</p>
+                <p>Hi, I am 23 years old and I am a young web developer from Ukraine. I am a developer who has already developed several projects. I have only one years practic, but really like my work and i really like codding.</p>
+                <p>At the moment, I work for a company "FlyFox".</p>
+                <p>Mostly my web sites are coded using: HTML5, CSS3 and JavaScript. But I also use such frameworks as: Bootstrap v3 or v4 and jQuery. And I'm also a developer at the CMS WordPress.</p>
             </div>
             <div class="about-img">
                 <img src="img/about.jpg" alt="me" class="wow pulse">
@@ -112,6 +117,7 @@
 
         <section class="portfolio wow pulse" id="portfolio">
             <h3>portfolio</h3>
+            <p>"The projects I worked on."</p>
             <div class="portfolio-row wow fadeInUp">
                 <a href="https://barn.com.ua/">
                     <img src="img/work/barn.png" alt="work">
@@ -136,9 +142,12 @@
                     </div>  
                 </a>
             </div>
-            <div class="button">
+            <div class="btn">
                 <a href="portfolio.html">more</a>
             </div>
+            <!-- <div class="button">
+                <a href="#">more</a>
+            </div> -->
         </section>
     </main>
 
@@ -161,10 +170,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="lib/file.js"></script>
     <script src="lib/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <script src="lib/file.js"></script>
 </body>
 </html>
