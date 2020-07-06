@@ -381,14 +381,16 @@ main{
     left: 5px;
     transition: 0.7s;
     z-index: -1;
+    opacity: 0.5;
 }
 
 .ser-block:hover .icon-body::before{
-    top: -7px;
-    left: -7px;
+    opacity: 1;
+    top: -5px;
+    left: -5px;
 }
 
-.ser-block .icon-body::after{
+/* .ser-block .icon-body::after{
     content: '';
     width: 35px;
     height: 35px;
@@ -400,12 +402,11 @@ main{
     right: 0px;
     transition: 0.7s;
 }
-
 .ser-block:hover .icon-body::after{
     bottom: -10px;
     right: -10px;
     opacity: 1;
-}
+} */
 
 .ser-block svg{
     transition: 0.8s;
@@ -604,34 +605,39 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 30px; top: 10;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #394648;
-    z-index: 1;
+    left: 30px; top: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
 }
-
 .btn-home a{
-    font-size: 20px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 111;
 }
-
 .btn-home a svg{
-    width: 60%;
+    width: 40%;
 }
-
-.btn-home:hover{
-    transition: .8s;
-    background-color: #846c54;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.15);
+.btn-home::before{
+    border: 1px solid #CAC9C9;
+    content: " ";
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    transition: .5s;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: none;
+}
+.btn-home:hover::before{
+    transform: rotate(45deg);
+    border: 1px solid #846c54;
 }
 
 .portfolio-gallery{
-    margin: 0 5%;
+    margin: 0 15%;
     padding-bottom: 100px;
 }
 
@@ -645,11 +651,12 @@ footer{
 }
 
 .gallery-nav ul li{
+    font-size: 12px;
     margin: 10px 20px;
     text-transform: capitalize;
     font-family: 'Poppins-Medium';
     border: 1px solid #846c54;
-    padding: 10px 40px;
+    padding: 6px 30px;
     transition: .5s;
     cursor: pointer;
 }
@@ -692,3 +699,9 @@ footer{
     position: relative;
     box-sizing: border-box;
 }
+
+/* Animations efect */
+/* .myRight{
+    position: relative;
+    display: none;
+} */

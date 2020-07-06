@@ -3,9 +3,15 @@
 @media only screen and (max-width:2000px){
 }
 @media only screen and (max-width:1440px){
+    .portfolio-row img{
+        height: 250px;
+    }
 }
 
 @media only screen and (max-width:1366px){
+    .portfolio-gallery{
+        margin: 0 5%;
+    }
 }
 
 @media only screen and (max-width:1024px){
@@ -82,14 +88,9 @@
     .portfolio-row{
         flex-wrap: wrap;
     }
-}
-
-/* iPhone 6/7/8 Plus samsung s9 width */
-@media only screen and (max-width:740px){
-}
-
-/* iPhone 6/7/8 Plus width */
-@media only screen and (max-width:736px){
+    .menu-bth{
+        top: 30px;
+    }
 }
 
 /* iPhone 6/7/8  width */
@@ -139,7 +140,10 @@
     }
     .gallery-nav ul li{
         margin: 10px 10px;
-        padding: 10px 40px;
+        padding: 5px 25px;
+    }
+    .portfolio-row{
+        margin-top: 10px;
     }
 
 }
@@ -186,6 +190,9 @@
     }
     .gallery-nav ul li{
         padding: 10px 20px;
+    }
+    .btn-home{
+        position: absolute;
     }
 }
 
